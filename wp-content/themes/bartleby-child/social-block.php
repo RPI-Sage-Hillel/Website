@@ -1,5 +1,5 @@
 <?php global $bartleby_options; $bartleby_settings = get_option( 'bartleby_options', $bartleby_options ); ?>
-<span id="social-bar">
+<div id="social-bar">
 <?php if ( $bartleby_settings['facebook_link'] !='' ) { ?>
 <a href="<?php echo $bartleby_settings['facebook_link']; ?>">
 <i class="icon-facebook icon-large"></i>
@@ -34,4 +34,4 @@
 <a href="<?php echo $bartleby_settings['feed_link']; ?>"><i class="icon-rss icon-large"></i>
 </a>
 <?php } ?>
-</span>
+</div>
