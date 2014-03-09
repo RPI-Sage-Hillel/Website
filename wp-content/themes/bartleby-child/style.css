@@ -63,3 +63,7 @@ p.lead-description {
 	margin-top: -10px;
 	margin-bottom: -40px;
 }
+
+p {
+	line-height: 1.5em;
+}
