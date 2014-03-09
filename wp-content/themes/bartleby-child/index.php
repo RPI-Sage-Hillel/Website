@@ -65,35 +65,16 @@ $bartleby_settings = get_option( 'bartleby_options', $bartleby_options );
 <?php endif; ?>
 	<div class="row">
 			<div class="four columns">
-				<img class="market-icon" src ="img/Growth.png" alt="Jewish Growth Icon">
-				<h3><a href="jlife#prosStudents">Religious Growth</a></h3>
-				<p>RPI Hillel allows students to learn with local Rabbis, lead services at local synagogues, and organize jewish cultural events.</p>
-				<p><a class="btn" href="jlife#prosStudents">Grow &raquo;</a></p>
-			</div>
-			<div class="four columns">
 				<img class="market-icon" src ="img/calendar-icon.png" alt="Calendar Icon">
 				<h3><a href="jlife#prosStudents">Calendar</a></h3>
-					<p>
-					Interested in what genius events RPI-Sage Hillel is coming up with.
-					Check out our event calendar for more details.
-					</p>
-					</p>
-					<p><a class="btn" href="jlife#calendar">View &raquo;</a></p>
+					<p>Interested in what genius events RPI-Sage Hillel is coming up with?</p>
+					<p><a class="btn" href="jlife#calendar">Check out our calendar &raquo;</a></p>
 			</div>
 			<div class="four columns">
 					<img class="market-icon" src ="img/Israel.png" alt="Suport Israel Icon">
 					<h3><a href="jlife#israel">Israeli Culture</a></h3>
 					<p>RPI Hillel values Israeli cutlure and history and we maximize this exposure through integrating it into our events and religious life.</p>
-					<p><a class="btn" href="jlife#israel">Embrace &raquo;</a></p>
-			</div>
-			<div class="four columns">
-					<img class="market-icon" src ="img/Earth.png" alt="Change The World Icon">
-					<h3><a href="cnc">Change the World</a></h3>
-					<p>
-					In the spirit of Rensselaer's technological focus, students may work on engineering 
-					related open source projects.
-					</p>
-					<p><a class="btn" href="cnc">Change &raquo;</a></p>
+					<p><a class="btn" href="http://localhost/wordpress/?page_id=67">Learn More &raquo;</a></p>
 			</div>
 	</div>
 <?php get_footer(); ?>
