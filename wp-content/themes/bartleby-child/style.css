@@ -2,7 +2,7 @@
  Theme Name:   Bartleby Child
  Theme URI:    http://hillel.rpi.edu/
  Description:  Customization of Bartleby for RPI-Sage Hillel
- Author:       Ely-S
+ Author:       Ely-S	
  Author URI:   https://github.com/Ely-S
  Template:     Bartleby
  Version:      1.0.0
@@ -18,10 +18,9 @@
 .header-row {
 	height: 500px;
 	background-size: 100%;
-}
-
-.header-row h1 {
-	text-shadow: 0px 2px 10px white;
+	color: rgba(0, 0, 0, 1);
+	text-shadow: 0px 1px 5px rgba(255, 255, 255, .50);
+	box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.12)
 }
 
 #site-navigation {
@@ -29,7 +28,6 @@
 }
 
 p.subtext {
-	margin-top: 140px;
 	text-align: center;
 	color: black;
 	font-size: 2em;
@@ -37,7 +35,7 @@ p.subtext {
 }
 
 p.lead-description {
-	margin-top: 185px;
+	margin-top: 280px;
 	text-align: right;
 	color: black;
 }

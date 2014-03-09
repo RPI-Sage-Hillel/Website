@@ -9,7 +9,7 @@ $bartleby_settings = get_option( 'bartleby_options', $bartleby_options );
 <?php echo $bartleby_settings['home_headline']; ?>
 </h1>
 <p class="subtext">The primier Jewish student group in New York State</p>
-<p class="lead-description">Our Holoucost Memorial</p>
+<p class="lead-description">Holoucost Memorial at RPI</p>
 </div>
 </div>
 <?php } ?>
