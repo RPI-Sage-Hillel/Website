@@ -71,8 +71,14 @@ $bartleby_settings = get_option( 'bartleby_options', $bartleby_options );
 					<p><a class="btn" href="jlife#calendar">Check out our calendar &raquo;</a></p>
 			</div>
 			<div class="four columns">
+					<img class="market-icon" src ="img/Members.png" alt="Membership Icon">
+					<h3><a href="http://localhost/wordpress/?page_id=82">Membership</a></h3>
+					<p>Are you Jewish? Great! You are already a member! If you're not, you can still come and enjoy the food.</p>
+					<p><a class="btn" href="http://localhost/wordpress/?page_id=82">Join Us &raquo;</a></p>
+			</div>
+			<div class="four columns">
 					<img class="market-icon" src ="img/Israel.png" alt="Suport Israel Icon">
-					<h3><a href="jlife#israel">Israeli Culture</a></h3>
+					<h3><a href="http://localhost/wordpress/?page_id=67">Israeli Culture</a></h3>
 					<p>RPI Hillel values Israeli cutlure and history and we maximize this exposure through integrating it into our events and religious life.</p>
 					<p><a class="btn" href="http://localhost/wordpress/?page_id=67">Learn More &raquo;</a></p>
 			</div>
