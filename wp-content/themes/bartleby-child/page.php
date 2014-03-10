@@ -12,7 +12,7 @@
 	<?php } */ ?>
 <section class="post-content">
 	<?php the_content(); ?>
-<div style="clear:both;"></div>
+	<div style="clear:both;"></div>
 </section><!-- .post-content -->
 	</article>
 <?php endwhile; ?>
@@ -20,7 +20,7 @@
 <?php else : ?>
 	<h2 class="center"><?php esc_attr_e('Nothing is Here - Page Not Found', 'bartleby'); ?></h2>
 	<div class="entry-content">
-	<p><?php esc_attr_e( 'Sorry, but we couldn\'t find what you we\'re looking for.', 'bartleby' ); ?></p>
+		<p><?php esc_attr_e( 'Sorry, but we couldn\'t find what you we\'re looking for.', 'bartleby' ); ?></p>
 	</div><!-- .entry-content -->
 <?php endif; ?>
 </div><!--End Single Article-->
