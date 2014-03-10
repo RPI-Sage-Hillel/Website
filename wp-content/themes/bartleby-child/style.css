@@ -52,3 +52,32 @@ p.lead-description {
 p {
 	line-height: 1.5em;
 }
+
+h1 {
+	font-family: times, serif;
+}
+
+#menu-item-89 a {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  /* sprites.less reset */
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+  content: "";
+  color: transparent;
+}
+
+#menu-item-89 a:before {
+	content: "\f09a"; 	
+	color:  black;
+}

@@ -13,20 +13,20 @@
 <body <?php body_class(); ?>>
   <!-- Header and Nav -->
 	<div class="top-bar row">
-		<div class="three columns">
+		<div class="two columns">
 			<div id="logo">
 				<a href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php get_template_part ('logo'); ?>
 				</a>
 			</div>
 		</div>
-		<nav id="site-navigation" class="main-navigation twelve columns" role="navigation">
+		<nav id="site-navigation" class="main-navigation fourteen columns" role="navigation">
 			<h3 class="menu-toggle"><?php esc_attr_e( 'Menu', 'bartleby' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'bartleby' ); ?>"><?php esc_attr_e( 'Skip to content', 'bartleby' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'nav-menu') ); ?>
 			<?php global $bartleby_options; $bartleby_settings = get_option( 'bartleby_options', $bartleby_options ); ?>
 		</nav>
-		<?php if( $bartleby_settings['social_bar'] ) get_template_part( 'social' , 'block' ); ?>
+		<?php //if( $bartleby_settings['social_bar'] ) get_template_part( 'social' , 'block' ); ?>
 
 	</div>
   <!-- End Header and Nav -->
