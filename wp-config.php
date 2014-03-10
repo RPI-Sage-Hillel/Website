@@ -1,4 +1,6 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
 /**
  * The base configurations of the WordPress.
  *
@@ -17,16 +19,12 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'hillel');
-
 /** MySQL database username */
 define('DB_USER', 'root');
-
 /** MySQL database password */
 define('DB_PASSWORD', '');
-
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -50,7 +48,6 @@ define('AUTH_SALT',        'O7]ey3JY~?d8J#|;}!5BTW zwqIKQ#C%wK{caZh=8E`p`gPUafrI
 define('SECURE_AUTH_SALT', ')Oq&tpH0}vb2}<m:6px]_~(m/*p-Syp/dQm0^Aa=L,gb{/|!Hnl,ga34+2Yz*.Dk');
 define('LOGGED_IN_SALT',   'j PpWIdsZ+cB6Ez, FTp{^_G^_$[?hh4k+)6%*u x!^j&SGwB8Clgf)hj~_PWm`5');
 define('NONCE_SALT',       '3K=eWCCOfrC!5!0(d4DaP>4uua+y9#f7{bakJ/0[&PY,kHqE=^6 Ky^jbGRgu#kS');
-
 /**#@-*/
 
 /**
@@ -60,7 +57,6 @@ define('NONCE_SALT',       '3K=eWCCOfrC!5!0(d4DaP>4uua+y9#f7{bakJ/0[&PY,kHqE=^6 
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
-
 /**
  * WordPress Localized Language, defaults to English.
  *

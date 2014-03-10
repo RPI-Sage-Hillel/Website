@@ -65,20 +65,20 @@ $bartleby_settings = get_option( 'bartleby_options', $bartleby_options );
 <?php endif; ?>
 	<div class="row">
 			<div class="four columns">
-				<img class="market-icon" src ="img/calendar-icon.png" alt="Calendar Icon">
-				<h3><a href="jlife#prosStudents">Calendar</a></h3>
+				<h3><a href="calender">Calendar</a></h3>
+					<img class="market-icon" src ="http://localhost/wordpress/wp-content/uploads/2014/03/cute.jpg" alt="Calendar Icon">
 					<p>Interested in what genius events RPI-Sage Hillel is coming up with?</p>
-					<p><a class="btn" href="jlife#calendar">Check out our calendar &raquo;</a></p>
+					<p><a class="btn" href="calendar">Check out our calendar &raquo;</a></p>
 			</div>
 			<div class="six columns">
-					<img class="market-icon" src ="img/Members.png" alt="Membership Icon">
 					<h3><a href="http://localhost/wordpress/?page_id=82">Membership</a></h3>
+					<img class="market-icon" src ="http://localhost/wordpress/wp-content/uploads/2014/03/egyptain-princesses.png" alt="Membership Icon">
 					<p>Are you Jewish? Great! You are already a member! If you're not, you can still come and enjoy the food.</p>
 					<p><a class="btn" href="http://localhost/wordpress/?page_id=82">Join Us &raquo;</a></p>
 			</div>
 			<div class="six columns">
-					<img class="market-icon" src ="img/Israel.png" alt="Suport Israel Icon">
 					<h3><a href="http://localhost/wordpress/?page_id=67">Israeli Culture</a></h3>
+					<img class="market-icon" src="http://localhost/wordpress/wp-content/uploads/2014/03/DSCN0820.jpg" alt="Suport Israel Icon">
 					<p>RPI Hillel values Israeli cutlure and history and we maximize this exposure through integrating it into our events and religious life.</p>
 					<p><a class="btn" href="http://localhost/wordpress/?page_id=67">Learn More &raquo;</a></p>
 			</div>
