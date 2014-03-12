@@ -81,3 +81,11 @@ h1 {
 	content: "\f09a"; 	
 	color:  black;
 }
+
+#donation-levels td, td {
+	line-height: 1.2em;
+
+}
+
+.front-box img {
+}
